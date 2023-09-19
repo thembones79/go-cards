@@ -23,3 +23,9 @@ func (d deck) print() {
 	}
 
 }
+
+func deal(d deck, handsize int) {
+    fmt.Println(d)
+}
+
+deal("dfdfdfdf",1)

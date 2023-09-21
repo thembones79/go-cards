@@ -24,8 +24,7 @@ func (d deck) print() {
 
 }
 
-func deal(d deck, handsize int) {
-    fmt.Println(d)
+func deal(d deck, handsize int) (deck, deck) {
+    return d[:handsize], d[handsize:]
 }
 
-deal("dfdfdfdf",1)
